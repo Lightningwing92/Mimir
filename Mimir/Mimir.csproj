@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{A4C4B035-CABE-45FB-BE66-AEE0B018AE3D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DiscordBot</RootNamespace>
-    <AssemblyName>DiscordBot</AssemblyName>
+    <RootNamespace>Mimir</RootNamespace>
+    <AssemblyName>Mimir</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
