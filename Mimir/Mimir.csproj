@@ -136,6 +136,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Mimir.Modules\CanonnCodexQuery.cs" />
+    <Compile Include="Mimir.CodexHandler\CodexHandler.cs" />
+    <Compile Include="Mimir.CodexHandler\CodexHandlerExtensions.cs" />
     <Compile Include="Mimir.Modules\GuardianSiteQuery.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

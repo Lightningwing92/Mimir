@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Discord;
 using Discord.WebSocket;
 using Discord.Commands;
+using Mimir.Handlers;
 using Mimir.Modules;
 
 namespace Mimir
@@ -53,6 +54,7 @@ namespace Mimir
             _services = new ServiceCollection()
                 .AddSingleton(_mainClient)
                 .AddSingleton(_commands)
+                .AddCodexHandler(_mainClient)
                 .BuildServiceProvider();
 
             await _commands.AddModulesAsync(Assembly.GetEntryAssembly());
